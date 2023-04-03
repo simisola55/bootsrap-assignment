@@ -1,0 +1,42 @@
+.snap{
+    font-style: italic;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    display: none;
+}
+.relative:hover .absolute{
+    display: block;
+    transition: 1s;
+}
+.mount{
+    justify-content: center;
+}
+.img:hover img{
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+.img img{
+    transition: 1.5s;
+}
+.img{
+    overflow: hidden;
+}
+.nav-pills li{
+    width: 20%;
+    border-radius: 5px;
+    
+}
+.nav-pills li a{
+    color: white;
+    text-align: center;
+    padding: 0px 15px;
+}
